@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated local database (rebuilt from the CSV on startup)
+*.db
+*.db-journal
+*.sqlite3
+
+# Node / Vite
+node_modules/
+dist/
+
+# Editors / OS / local tooling
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
